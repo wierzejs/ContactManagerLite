@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        app:srcCompat="@mipmap/empty_profile"
+        android:id="@+id/profilePhotoSaved"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LinearLayout">
+
+        <TextView
+            android:text="Contact Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contactName"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Phone number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contactPhone"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:text="Second phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contactSecondaryPhone" />
+
+        <TextView
+            android:text="E-mail address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contactEmail" />
+
+        <TextView
+            android:text="Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contactAddress" />
+    </LinearLayout>
+
+</LinearLayout>
